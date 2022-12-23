@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <title>DPG Test Task</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+
+        <div class="greet-title title">Hello</div>
+        <!-- Form -->
+        <form action="#" class="form-request">
+
+          <div class="form-request__content">
+
+            <div class="form-request__title text">
+              For business enquiries please use the form below
+            </div>
+            <div class="form-request_footnote form-label">
+              <span class="form-label__remark">*</span>Required
+            </div>
+
+            <!-- Name input -->
+            <div class="form-request__group">
+              <label for="name-input" class="form-request__label form-label">
+                Name<span class="form-label__remark">*</span>
+                <input  type="text" id="name-input" class="form-request__input form__input _req" />
+              </label>
+            </div>
+
+            <!-- Company input -->
+            <div class="form-request__group">
+              <label for="" class="form-request__label form-label">
+                Company<span class="form-label__remark">*</span>
+                <input type="text" class="form-request__input form__input _req" />
+              </label>
+            </div>
+
+            <!-- E-Mail input -->
+            <div class="form-request__group">
+              <label for="" class="form-request__label form-label">
+                E-mail<span class="form-label__remark">*</span>
+                <input type="text" class="form-request__input form__input _req" />
+              </label>
+            </div>
+
+            <!-- Phone input -->
+            <div class="form-request__group">
+              <label for="" class="form-request__label form-label">
+                Phone
+                <input type="text" class="form-request__input form__input" />
+              </label>  
+            </div>
+
+            <!-- Subject input -->
+            <div class="form-request__group">
+              <label for="" class="form-request__label form-label">
+                Subject
+                <input type="text" class="form-request__input form__input" />
+              </label>
+            </div>
+
+            <!-- Message input -->
+            <div class="form-request__group">
+              <label for="form-message" class="form-request__label form-label">
+                Message<span class="form-label__remark">*</span>
+                <textarea
+                  class="form-request__input form__input _req"
+                  name=""
+                  id="form-message"
+                ></textarea>
+              </label>
+            </div>
+
+            <!-- Check-box -->
+            <div class="form-request__agreement-group">
+              <input
+                id="checkAgreement"
+                class="form-request__checkbox _req"
+                type="checkbox"
+                checked
+                name="agreement"
+              />
+              <label
+                for="checkAgreement"
+                class="form-request__agreement-text form-label"
+                >I accept <a href="#">Terms and Privacy Policy</a>
+              </label>
+            </div>
+            <!--  -->
+            <button class="form-request__submit text">Send</button>
+
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
